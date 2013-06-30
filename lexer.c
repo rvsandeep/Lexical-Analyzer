@@ -62,7 +62,7 @@ int max(int a, int b) {
  *
  * a
  *  \		left rotation
- *   b			=>				b
+ *   b			=>			     b
  *    \						   / \
  *     c					  a   c
  */
@@ -80,7 +80,7 @@ keywords left_rotation(keywords root) {
  *
  *      c
  *     /	right rotation
- *    b			=>			b
+ *    b			=>		     b
  *   /					   / \
  *  a					  a   c
  */
@@ -96,11 +96,11 @@ keywords right_rotation(keywords root) {
 /*
  * Used by the self balancing tree to balance such a condition by right and left rotation
  *
- *  a					i.e				   a
- *   \	  right rotation	      right 	\		   left
- *    c			=>		     c     =>	 	  b			=> 			 b
- *   /		on right		/	 rotation      \	 rotation		/ \
- *  b		sub tree	   b	    	   	    c   			   a   c
+ *  a					i.e  a
+ *   \	  right rotation	      right   \		   left
+ *    c			=>		      c     =>	      b		=> 	  		 b
+ *   /		on right		     /	 rotation      \	 rotation		/ \
+ *  b		sub tree	            b	    	   	c   			       a   c
  */
 keywords left_right_rotation(keywords root) {
 
@@ -111,11 +111,11 @@ keywords left_right_rotation(keywords root) {
 /*
  * Used by the self balancing tree to balance such a condition by rotating left and right rotation
  *
- *  	 c				   		c
+ *  	 c		            c
  *   	/  left rotation	   /	   right rotation
- *    a			=>		     b   	  		 =>				 b
- *  	\				    / 								/ \
- *  	 b				   a		   					   a   c
+ *    a			=>        b   	  		 =>				     b
+ *  	\		         / 							    / \
+ *  	 b		        a		   					   a   c
  */
 keywords right_left_rotation(keywords root) {
 
