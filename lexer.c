@@ -302,7 +302,7 @@ int if_not_relational_op(char c) {
 	return 1;
 }
 /*
- *  returns 1 (true) if  character is not an a quote
+ *  returns 1 (true) if  character is not a quote
  *  else scans till the next quote (printf and scanf statements)
  *  outputs it as string constant
  */
