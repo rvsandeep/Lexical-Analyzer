@@ -5,8 +5,8 @@
  * output a sequence of tokens that the parser uses for syntax analysis.
  *
  *  	Created on: Dec-2012
- *      Authors: Sandeep R V, Sandeep Venkatesh
- *      email: rvsandeep792@gmail.com, kvsandy22@gmail.com
+ *      Author: Sandeep R V
+ *      email: rvsandeep792@gmail.com
  */
 
 //including headers
