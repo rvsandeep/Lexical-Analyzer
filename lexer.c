@@ -7,7 +7,6 @@
  *  	Created on: Dec-2012
  *      Authors: Sandeep R V, Sandeep Venkatesh
  *      email: rvsandeep792@gmail.com, kvsandy22@gmail.com
- *      Contact No: +91-90194-34240 , +91-88612-64334
  */
 
 //including headers
